@@ -1,0 +1,319 @@
+/* Start Animated Progress */
+body:has([href="#about"].nav-link.active) .animated1_progress {
+  animation: animated1_progress 2s ease-in-out;
+}
+
+@keyframes animated1_progress {
+  0% {
+    width: 0;
+  }
+
+  95% {
+    width: 95%;
+  }
+}
+
+body:has([href="#about"].nav-link.active) .animated2_progress {
+  animation: animated2_progress 2s ease-in-out;
+}
+
+@keyframes animated2_progress {
+  0% {
+    width: 0;
+  }
+
+  80% {
+    width: 80%;
+  }
+}
+
+body:has([href="#about"].nav-link.active) .animated3_progress {
+  animation: animated3_progress 2s ease-in-out;
+}
+
+@keyframes animated3_progress {
+  0% {
+    width: 0;
+  }
+
+  80% {
+    width: 90%;
+  }
+}
+/* End Animated Progress */
+
+/* Start Animated Text Section Home */
+@keyframes typing-animation {
+  0% {
+    content: "";
+  }
+
+  1.53846153846154% {
+    content: "L";
+  }
+
+  3.07692307692308% {
+    content: "La";
+  }
+
+  4.61538461538462% {
+    content: "Lar";
+  }
+
+  6.15384615384615% {
+    content: "Larr";
+  }
+
+  7.69230769230769% {
+    content: "Larry ";
+  }
+
+  9.23076923076923% {
+    content: "Larry D";
+  }
+
+  10.7692307692308% {
+    content: "Larry Da";
+  }
+
+  12.3076923076923% {
+    content: "Larry Dan";
+  }
+
+  13.8461538461538% {
+    content: "Larry Dani";
+  }
+
+  15.3846153846154% {
+    content: "Larry Danie";
+  }
+
+  16.9230769230769% {
+    content: "Larry Daniel";
+  }
+
+  18.4615384615385% {
+    content: "Larry Daniel";
+  }
+
+  20% {
+    content: "Larry Danie";
+  }
+
+  21.5384615384615% {
+    content: "Larry Dani";
+  }
+
+  23.0769230769231% {
+    content: "Larry Dan";
+  }
+
+  24.6153846153846% {
+    content: "Larry Da";
+  }
+
+  26.1538461538462% {
+    content: "Larry D";
+  }
+
+  27.6923076923077% {
+    content: "Larry ";
+  }
+
+  29.2307692307692% {
+    content: "Larr";
+  }
+
+  30.7692307692308% {
+    content: "Lar";
+  }
+
+  32.3076923076923% {
+    content: "La";
+  }
+
+  33.8461538461539% {
+    content: "L";
+  }
+
+  35.3846153846154% {
+    content: "";
+  }
+
+  36.9230769230769% {
+    content: "";
+  }
+
+  38.4615384615385% {
+    content: "D";
+  }
+
+  40% {
+    content: "De";
+  }
+
+  41.5384615384616% {
+    content: "Dev";
+  }
+
+  43.0769230769231% {
+    content: "Deve";
+  }
+
+  44.6153846153846% {
+    content: "Devel";
+  }
+
+  46.1538461538462% {
+    content: "Develo";
+  }
+
+  47.6923076923077% {
+    content: "Develop";
+  }
+
+  49.2307692307693% {
+    content: "Develop";
+  }
+
+  50.7692307692308% {
+    content: "Develop";
+  }
+
+  52.3076923076923% {
+    content: "Developer";
+  }
+
+  53.8461538461539% {
+    content: "Developer";
+  }
+
+  55.3846153846154% {
+    content: "Develop";
+  }
+
+  56.923076923077% {
+    content: "Develop";
+  }
+
+  58.4615384615385% {
+    content: "Develop";
+  }
+
+  60% {
+    content: "Develo";
+  }
+
+  61.5384615384616% {
+    content: "Devel";
+  }
+
+  63.0769230769231% {
+    content: "Deve";
+  }
+
+  64.6153846153847% {
+    content: "Dev";
+  }
+
+  66.1538461538462% {
+    content: "De";
+  }
+
+  67.6923076923077% {
+    content: "D";
+  }
+
+  69.2307692307693% {
+    content: "";
+  }
+
+  70.7692307692308% {
+    content: "";
+  }
+
+  72.3076923076923% {
+    content: "D";
+  }
+
+  73.8461538461539% {
+    content: "De";
+  }
+
+  75.3846153846154% {
+    content: "Des";
+  }
+
+  76.9230769230769% {
+    content: "Desi";
+  }
+
+  78.4615384615385% {
+    content: "Desig";
+  }
+
+  80% {
+    content: "Design";
+  }
+
+  81.5384615384615% {
+    content: "Designe";
+  }
+
+  83.0769230769231% {
+    content: "Designe";
+  }
+
+  84.6153846153846% {
+    content: "Designer";
+  }
+
+  86.1538461538461% {
+    content: "Designer";
+  }
+
+  87.6923076923077% {
+    content: "Designe";
+  }
+
+  89.2307692307692% {
+    content: "Designe";
+  }
+
+  90.7692307692307% {
+    content: "Design";
+  }
+
+  92.3076923076922% {
+    content: "Desig";
+  }
+
+  93.8461538461538% {
+    content: "Desi";
+  }
+
+  95.3846153846153% {
+    content: "Des";
+  }
+
+  96.9230769230768% {
+    content: "De";
+  }
+
+  98.4615384615384% {
+    content: "D";
+  }
+
+  99.9999999999999% {
+    content: "";
+  }
+}
+
+/* End Animation Section Home */
+
+/* Start Animated Numbers */
+
+body:has([href="#about"].nav-link.active) .number-animation {
+  animation: number-animation 2s ease-in-out;
+}
+/* End Animated Numbers */
